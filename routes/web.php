@@ -64,5 +64,5 @@ Route::get('/', function () {
         ]
     ];
 
-    return view('index', $data);
+    return view('home', $data);
 });

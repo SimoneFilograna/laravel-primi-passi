@@ -9,12 +9,12 @@
         </head>
         <body>
             <header>
-                <div class="container">
-                    <h1>Argomenti affrontati</h1>
+                <div class="container text-center">
+                    <h1 class="mt-5 display-1">Argomenti affrontati</h1>
                 </div>
             </header>
             <main>
-                <div class="container">
+                <div class="container mt-5">
                     <div class="row row-cols-3">
                         @foreach ($arguments as $singleArg )
                             <div class="col">
