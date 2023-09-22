@@ -80,7 +80,7 @@ Route::get('1', function() {
     $data = [
         "html" => [
             "name" => "HTML: HyperText Markup Language",
-            "description" => "HTML (HyperText Markup Language) è un linguaggio utilizzato per la creazione e la strutturazione di pagine web. Nonostante la tua richiesta di una descrizione senza tag, è importante notare che HTML è fondamentalmente basato su tag, e questi tag sono ciò che definisce la struttura e il contenuto delle pagine web. Tuttavia, posso fornirti una descrizione senza utilizzare direttamente i tag:
+            "description" => "HTML (HyperText Markup Language) è un linguaggio utilizzato per la creazione e la strutturazione di pagine web.  HTML è fondamentalmente basato su tag, e questi tag sono ciò che definisce la struttura e il contenuto delle pagine web.
 
                 HTML è un linguaggio utilizzato per definire la struttura e il contenuto di una pagina web. Con HTML, puoi organizzare il testo e i media sulla pagina in modo logico e strutturato. Questo linguaggio ti consente di includere testo, immagini, collegamenti e altri elementi all'interno di una pagina web in modo che possano essere visualizzati e interagiti dagli utenti attraverso un browser web.
                 
@@ -99,7 +99,7 @@ Route::get('2', function() {
         "css" => [
             "name" => "CSS: Cascading Style Sheets",
 
-            "description" => "CSS (Cascading Style Sheets) è un linguaggio utilizzato per definire la presentazione e la formattazione del contenuto in una pagina web. A differenza di HTML, CSS non contiene tag o elementi, ma fornisce istruzioni per controllare l'aspetto degli elementi HTML presenti in una pagina web. Ecco una descrizione di CSS senza l'utilizzo di tag:
+            "description" => "CSS (Cascading Style Sheets) è un linguaggio utilizzato per definire la presentazione e la formattazione del contenuto in una pagina web. A differenza di HTML, CSS non contiene tag o elementi, ma fornisce istruzioni per controllare l'aspetto degli elementi HTML presenti in una pagina web.
 
                 CSS è un linguaggio di stile utilizzato per definire l'aspetto visivo di una pagina web. Attraverso CSS, è possibile specificare proprietà come colori, tipi di carattere, margini, padding, allineamento, dimensioni e molti altri attributi che influenzano l'aspetto dei contenuti HTML su una pagina.
                 
@@ -120,7 +120,7 @@ Route::get('3', function() {
     $data = [
         "bootstrap" => [
             "name" => "Bootstrap",
-            "description" => "Bootstrap è un framework front-end che fornisce un set di strumenti e risorse per la creazione di pagine web responsive e interattive. Sebbene Bootstrap sia principalmente basato su classi CSS e componenti HTML, posso fornirti una descrizione senza utilizzare direttamente i tag o le classi specifiche di Bootstrap:
+            "description" => "Bootstrap è un framework front-end che fornisce un set di strumenti e risorse per la creazione di pagine web responsive e interattive.
 
                 Bootstrap è un framework di sviluppo web che offre un insieme di risorse e convenzioni per migliorare l'aspetto e le funzionalità di un sito web. È progettato per semplificare il processo di progettazione e sviluppo di pagine web, consentendo una rapida creazione di layout responsive, componenti interattivi e stili visivi coerenti.
                 
@@ -142,7 +142,7 @@ Route::get('4', function() {
     $data = [
         "sass" => [
             "name" => "SASS",
-            "description" => "Sass, abbreviazione di Syntactically Awesome Style Sheets, è un pre-processore CSS che offre funzionalità avanzate per la scrittura di fogli di stile. Pur non avendo tag, Sass fornisce una serie di strumenti che semplificano la scrittura di codice CSS. Ecco una descrizione di Sass senza utilizzare tag o sintassi specifiche:
+            "description" => "Sass, abbreviazione di Syntactically Awesome Style Sheets, è un pre-processore CSS che offre funzionalità avanzate per la scrittura di fogli di stile.
 
                 Sass è un pre-processore CSS che migliora la gestione e la creazione di fogli di stile per pagine web. Funziona come un'estensione di CSS, consentendo ai progettisti e agli sviluppatori di scrivere codice più pulito, organizzato ed efficiente.
                 
@@ -170,7 +170,7 @@ Route::get('5', function() {
     $data = [
         "js" => [
             "name" => "Javascript",
-            "description" => "JavaScript è un linguaggio di programmazione interpretato utilizzato principalmente per aggiungere interattività e dinamicità alle pagine web. Anche se non ci sono tag diretti in JavaScript, è possibile fornire una descrizione del linguaggio senza fare riferimento a tag o sintassi specifiche:
+            "description" => "JavaScript è un linguaggio di programmazione interpretato utilizzato principalmente per aggiungere interattività e dinamicità alle pagine web.
 
                 JavaScript è un linguaggio di programmazione utilizzato per creare comportamenti interattivi all'interno delle pagine web. È uno strumento essenziale per arricchire l'esperienza dell'utente sul web.
                 
@@ -196,7 +196,7 @@ Route::get('6', function() {
     $data = [
         "vue" => [
             "name" => "Vue.js",
-            "description" => "Vue.js è un framework JavaScript utilizzato per creare interfacce utente reattive e dinamiche all'interno delle applicazioni web. Sebbene Vue.js non abbia tag propriamente detti, è possibile descriverlo senza fare riferimento a tag o sintassi specifiche:
+            "description" => "Vue.js è un framework JavaScript utilizzato per creare interfacce utente reattive e dinamiche all'interno delle applicazioni web.
 
                 Vue.js è un framework JavaScript che consente di creare interfacce utente interattive e dinamiche all'interno delle applicazioni web. È progettato per semplificare lo sviluppo di componenti riutilizzabili, che possono essere aggiunti alle pagine web per gestire la visualizzazione e la logica dell'interfaccia utente.
                 
@@ -222,7 +222,7 @@ Route::get('7', function() {
     $data = [
         "backendphp" => [
             "name" => "PHP",
-            "description" => "PHP, acronimo di PHP: Hypertext Preprocessor, è un linguaggio di scripting ampiamente utilizzato per lo sviluppo web lato server. Anche se PHP è noto per l'utilizzo di tag, è possibile descriverlo senza fare riferimento a tag specifici:
+            "description" => "PHP, acronimo di PHP: Hypertext Preprocessor, è un linguaggio di scripting ampiamente utilizzato per lo sviluppo web lato server.
 
                 PHP è un linguaggio di scripting utilizzato principalmente per sviluppare applicazioni web dinamiche. Funziona eseguendo codice sul server web e generando pagine web in base alle richieste degli utenti.
                 
@@ -248,7 +248,7 @@ Route::get('8', function() {
     $data = [
         "dbmanager" => [
             "name" => "MySql",
-            "description" => "MySQL è un sistema di gestione di database relazionali (RDBMS) ampiamente utilizzato per l'archiviazione, la gestione e l'organizzazione dei dati. Nonostante non abbia tag propriamente detti, ecco una descrizione di MySQL senza riferimenti a tag o sintassi specifiche:
+            "description" => "MySQL è un sistema di gestione di database relazionali (RDBMS) ampiamente utilizzato per l'archiviazione, la gestione e l'organizzazione dei dati.
 
                 MySQL è un sistema di gestione di database relazionali progettato per archiviare, organizzare e recuperare dati in modo strutturato ed efficiente. È uno strumento fondamentale per la gestione dei dati in applicazioni web, applicazioni aziendali e molti altri contesti.
                 
@@ -274,7 +274,7 @@ Route::get('9', function() {
     $data = [
         "laravel" => [
             "name" => "Laravel",
-            "description" => "Laravel è un framework di sviluppo web PHP che offre un ambiente robusto e organizzato per la creazione di applicazioni web moderne e complesse. Pur non avendo tag propriamente detti, è possibile descriverlo senza fare riferimento a tag o sintassi specifiche:
+            "description" => "Laravel è un framework di sviluppo web PHP che offre un ambiente robusto e organizzato per la creazione di applicazioni web moderne e complesse.
 
                 Laravel è un framework di sviluppo web che semplifica la creazione di applicazioni web scalabili e performanti. È scritto in PHP, un linguaggio di scripting ampiamente utilizzato per lo sviluppo web, ed è progettato per migliorare la produttività degli sviluppatori.
                 
