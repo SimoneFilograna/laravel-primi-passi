@@ -15,13 +15,13 @@
                 </div>
             </header>
             <main>
-                <div class="container mt-5">
+                <div class="container mt-5 mb-5">
                     <div class="row row-cols-3 g-5">
                         @foreach ($arguments as $singleArg )
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="{{$singleArg["img"]}}" class="card-img-top object-fit-contain" alt="">
-                                    <div class="card-body">
+                                <div class="card h-100 bg-white border-0">
+                                    <img src="{{$singleArg["img"]}}" class="card-img-top h-100 object-fit-contain" alt="">
+                                    <div class="card-body text-center">
                                         <h5 class="card-title">{{$singleArg["name"]}}</h5>
                                         <p class="card-text">{{$singleArg["description"]}}</p>
                                     </div>

@@ -49,12 +49,12 @@ Route::get('/', function () {
             [
                 "name" => "PHP",
                 "description" => "PHP: Linguaggio di scripting ampiamente utilizzato per lo sviluppo web server-side.",
-                "img" => "https://www.html.it/app/uploads/2014/04/php.png"
+                "img" => "https://images.sftcdn.net/images/t_app-icon-s/p/f8f40004-96d5-11e6-88c2-00163ec9f5fa/1688065098/php-logo.jpg"
             ],
             [
                 "name" => "MySql",
                 "description" => "PHP: Linguaggio di scripting ampiamente utilizzato per lo sviluppo web server-side.",
-                "img" => "https://www.elearningworld.org/wp-content/uploads/2019/04/MySQL.svg.png"
+                "img" => "https://styles.redditmedia.com/t5_2qm6k/styles/communityIcon_dhjr6guc03x51.png?width=256&s=3e825b7205c7f497d4695028e358d26ee359f84b"
             ],
             [
                 "name" => "Laravel",
