@@ -54,7 +54,7 @@ Route::get('/', function () {
             [
                 "name" => "MySql",
                 "description" => "PHP: Linguaggio di scripting ampiamente utilizzato per lo sviluppo web server-side.",
-                "img" => "https://blog.lbit-solution.it/wp-content/uploads/2021/09/MySQL.png"
+                "img" => "https://www.elearningworld.org/wp-content/uploads/2019/04/MySQL.svg.png"
             ],
             [
                 "name" => "Laravel",
