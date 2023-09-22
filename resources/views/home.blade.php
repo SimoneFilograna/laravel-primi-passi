@@ -10,7 +10,7 @@
         </head>
         <body>
             <header>
-                <div class="container text-center">
+                <div class="container text-center mb-4">
                     <h1 class="mt-5 display-1 ciaone">Argomenti affrontati</h1>
                 </div>
             </header>
@@ -24,6 +24,7 @@
                                     <div class="card-body text-center">
                                         <h5 class="card-title">{{$singleArg["name"]}}</h5>
                                         <p class="card-text">{{$singleArg["description"]}}</p>
+                                        <a href="{{$singleArg["route"]}}" class="btn btn-primary">Dettagli</a>
                                     </div>
                                 </div>
                             </div>
